@@ -5,7 +5,7 @@ import globalaccount
 
 app = Flask(__name__)
 block_list = {1: 1, 2: {'zc': 'adf', 'zc2': 'fad'}, 3: "aaa"}
-trans_list = set()
+trans_list = []
 
 
 @app.route('/')
@@ -33,11 +33,11 @@ def submittrans():
     if verify(data['from'], str(data), sig) is False:
         return "Wrong Signature"
     data['sig'] = sig
-    trans_list.add(data)
+    trans_list.append(data)
     return "transaction submitted successfully"
 
 
 if __name__ == '__main__':
     globalaccount._init()
-    app.run(debug=True, port=8000)
+    app.run(debug=False, port=8000)
 

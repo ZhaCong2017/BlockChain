@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6b23eb-75da-4fa9-a04f-19d6ee3fb58d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/globalaccount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Account/zc 1576219620.2271507_private.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Account/zc 1576219620.2271507_public.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Account/zc_private.pem" beforeDir="false" afterPath="$PROJECT_DIR$/Account/zc_private.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Account/zc_public.pem" beforeDir="false" afterPath="$PROJECT_DIR$/Account/zc_public.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/aaa_private.pem" beforeDir="false" afterPath="$PROJECT_DIR$/Account/aaa_private.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/aaa_public.pem" beforeDir="false" afterPath="$PROJECT_DIR$/Account/aaa_public.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlockChain.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlockChain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consensus.py" beforeDir="false" afterPath="$PROJECT_DIR$/consensus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BlockChain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="437">
+              <caret line="23" column="12" selection-start-line="19" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -38,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="266">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -62,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consensus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="247">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -85,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/globalaccount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="-317">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -274,8 +268,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BlockChain" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.BlockChain" />
         <item itemvalue="Python.User" />
         <item itemvalue="Python.consensus" />
         <item itemvalue="Python.Client" />
@@ -334,13 +328,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Server.py" />
-    <entry file="file://$PROJECT_DIR$/build_trans.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlockChain.py">
+    <entry file="file://$PROJECT_DIR$/globalaccount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="-317">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -349,10 +340,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="266">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalvar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_trans.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -367,27 +378,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus.py">
+    <entry file="file://$PROJECT_DIR$/BlockChain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/globalvar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/globalaccount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="437">
+          <caret line="23" column="12" selection-start-line="19" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
