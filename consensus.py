@@ -67,7 +67,6 @@ def mining(transactions, my_account, height_now):
     return block
 
 
-
 if __name__ == '__main__':
     transactions = ['1', '2', '3', '4', '5', '9']
     # result = make_Merkletree(transactions)
