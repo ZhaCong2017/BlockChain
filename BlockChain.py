@@ -2,10 +2,9 @@ import json
 from flask import Flask, request
 from User import verify
 import globalaccount
+import globalvar
 
 app = Flask(__name__)
-block_list = {1: 1, 2: {'zc': 'adf', 'zc2': 'fad'}, 3: "aaa"}
-trans_list = []
 
 
 @app.route('/')
@@ -15,7 +14,7 @@ def index():
 
 @app.route('/getblock')
 def getblock():
-    return json.dumps(block_list)
+    return json.dumps(globalvar.block_list)
 
 
 @app.route('/submittrans')
@@ -33,7 +32,7 @@ def submittrans():
     if verify(data['from'], str(data), sig) is False:
         return "Wrong Signature"
     data['sig'] = sig
-    trans_list.append(data)
+    globalvar.append_trans(data)
     return "transaction submitted successfully"
 
 

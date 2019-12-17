@@ -34,7 +34,7 @@ def get_parentblockhash():
 
 def mining(transactions, my_account, height_now):
     block = {}
-    block['parent block hash'] = get_parentblockhash()
+    block['parent block hash'] = g.get_parentblockhash()
     block['height'] = height_now + 1
     block['Merkle tree'] = make_Merkletree(transactions)
     block["miner"] = my_account
